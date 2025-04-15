@@ -1,0 +1,9 @@
+/.venv/
+/.idea/
+/.env
+.linux-venv
+**/__pycache__/
+/.app.log
+logs/
+djnago.log
+dump.rdb
