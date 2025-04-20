@@ -1,9 +1,18 @@
 /.venv/
 /.idea/
-/.env
+ /env
 .linux-venv
 **/__pycache__/
 /.app.log
 logs/
 djnago.log
 dump.rdb
+.env
+#**/migrations/*
+#/apps/chat/migrations/
+#/apps/common/migrations/
+#/apps/courses/migrations/
+#/apps/reports/
+#/apps/users/migrations/
+*.log
+*.json
