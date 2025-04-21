@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-"""Django's command-line utility for administrative tasks."""
 import os
 import sys
+from config.loader import get_settings_module  # Import the environment detection function
 
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", get_settings_module())  # Use dynamic settings
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

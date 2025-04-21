@@ -37,6 +37,14 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'ninja',
+    'users',
+    'desktop',
+    'filesystem',
+    'core',
+    'apps.notepad',
+    'apps.terminal',
+    'apps.settings',
 ]
 
 MIDDLEWARE = [
